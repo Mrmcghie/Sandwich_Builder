@@ -1,7 +1,7 @@
-Sourdough bread
-Mayonnaise
-Dijon mustard
-Honey
-Swiss Cheese
-Ham
-Dill pickle
+sourdough bread
+mayonnaise
+dijon mustard
+honey
+swiss Cheese
+ham
+dill pickle
