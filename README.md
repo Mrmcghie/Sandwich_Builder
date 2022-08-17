@@ -1,2 +1,5 @@
 # Sandwich_Builder
-Group project to build sandwiches based available ingredients
+##Objectives
+Group Project Bash Script to check if available ingredients
+for a sandwich are availble to user
+##Necessary files
