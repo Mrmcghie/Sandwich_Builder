@@ -50,15 +50,11 @@ if [ "$sandwich" == italian ]; then
 fi
 
 # Ham and cheese option
-if [ "$sandwich" == "ham & cheese" ];
-then
-
+if [ "$sandwich" == "ham & cheese" ]; then
  for i in "${ham_cheese[@]}"
  do
   # asks user if they have the item
-  echo "Do you have $i?"
-  read ans;
-  
+  read -p "do you have $i? " ans
   echo $ans | grep -e "yes" -e "y" || echo "$i" >> grocery_list.txt
   done
 fi
