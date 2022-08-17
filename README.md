@@ -1,5 +1,31 @@
 # Sandwich_Builder
-##Objectives
+
+A Bash Sandwhich Ingredient Check
+
+## Objectives
+
 Group Project Bash Script to check if available ingredients
 for a sandwich are availble to user
-##Necessary files
+
+## Group Participants
+
+Sasha H
+Kingman T
+Walter E
+Rey R
+
+## Methodology
+
+### Files
+We are using files to store the following
+* Sandwich ingredient list
+* Available ingredients
+* Missing ingredients
+* Needed ingredients
+
+### Script
+The script does the following:
+* Ask user for a desired sandwich
+* Takes a predetermined available ingredient list and verifies available ingredients
+  * If ingredients are available, says that sandwich was made
+  * If not, populate ingredients in a separate text file
