@@ -8,10 +8,10 @@ echo " "
 echo "Here are our Menu Options:"
 echo " "
 sleep 1
-echo Veggie
-echo Meatball
+echo "Veggie"
+echo "Meatball"
 echo "Ham & Cheese"
-echo Italian
+echo "Italian"
 echo " "
 read -p  "Which sandwich would you like to make? " sandwich
 
@@ -21,7 +21,8 @@ touch grocery_list.txt | echo "Your Grocery List:" > "grocery_list.txt"
 
 # Create index array for sandwich ingedients 
 
-veggie=( "italian seasoning" "red onion" "bell pepper" mayo "sourdough bread" mozzarella zuchini "garlic powder" "roasted red pepper spread" )
+veggie=( "italian seasoning" "red onion" "bell pepper" "mayo" "sourdough bread" "mozzarella" "zuchini" "garlic powder" "roasted red pepper spread" )
+italian=( "bread" "pepperoni" "salami" "cheese" "lettuce" "tomatoes" "red onions" "peppers" "mayo" )
 
 # if statement for each sandwich option with nested for loop 
 
@@ -39,6 +40,13 @@ then
 	done
 fi
 
+if [ "$sandwich" == italian ]; then
+        for i in "${italian[@]}"
+        do
+                read -p "do you have $i? " ans
+                echo $ans | grep -e "yes" -e "y" || echo "$i" >> grocery_list.txt
+        done
+fi
 
 # Create grocery list and print it to the user screen, and farewell
 
