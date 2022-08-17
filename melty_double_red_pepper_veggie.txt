@@ -1,13 +1,10 @@
-Sandwich: Melty Double Red Pepper Panini
-
-Ingredients:
-Italian seasoning
-Red Onion
-Bell Pepper
-Mayo
-Sourdough Bread 
-Mozzarella
-Zucchini
-Roasted Red Pepper Spread
-Garlic Powder
+italian seasoning
+red Onion
+bell pepper
+mayo
+sourdough bread 
+mozzarella
+zucchini
+roasted red pepper spread
+garlic powder
 
