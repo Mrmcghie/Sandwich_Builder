@@ -49,6 +49,7 @@ if [ "$sandwich" == italian ]; then
         done
 fi
 
+# Ham and cheese option
 if [ "$sandwich" == "ham & cheese" ];
 then
 
