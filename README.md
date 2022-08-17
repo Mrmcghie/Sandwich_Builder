@@ -9,10 +9,11 @@ for a sandwich are availble to user
 
 ## Group Participants
 
-Sasha H
+Sasheeny H
 Kingman T
 Walter E
 Rey R
+Lorenzo M
 
 ## Methodology
 
